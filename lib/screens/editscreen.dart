@@ -22,22 +22,23 @@ class _EditScreenState extends State<EditScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.black12,
+      backgroundColor: Colors.black,
       body: SafeArea(
         child: Row(
           children: [
             // ignore: sized_box_for_whitespace
             Container(
               height: MediaQuery.of(context).size.height,
-              width: 80,
+              width: 60,
               child: SingleChildScrollView(
                 child: Column(children: [
                   Padding(
-                    padding: const EdgeInsets.all(8.0),
+                    padding:
+                        const EdgeInsets.symmetric(horizontal: 8, vertical: 5),
                     child: Container(
-                      color: Colors.blue,
-                      height: 70,
-                      width: 70,
+                      color: Colors.lightGreen[200],
+                      height: 50,
+                      width: 50,
                       child: TextButton(
                         onPressed: () {},
                         child: const Icon(
@@ -49,11 +50,12 @@ class _EditScreenState extends State<EditScreen> {
                     ),
                   ),
                   Padding(
-                    padding: const EdgeInsets.all(8.0),
+                    padding:
+                        const EdgeInsets.symmetric(horizontal: 8, vertical: 5),
                     child: Container(
-                      color: Colors.blue,
-                      height: 70,
-                      width: 70,
+                      color: Colors.lightGreen[200],
+                      height: 50,
+                      width: 50,
                       child: TextButton(
                         onPressed: () {},
                         child: const Icon(
@@ -65,11 +67,12 @@ class _EditScreenState extends State<EditScreen> {
                     ),
                   ),
                   Padding(
-                    padding: const EdgeInsets.all(8.0),
+                    padding:
+                        const EdgeInsets.symmetric(horizontal: 8, vertical: 5),
                     child: Container(
-                      color: Colors.blue,
-                      height: 70,
-                      width: 70,
+                      color: Colors.lightGreen[200],
+                      height: 50,
+                      width: 50,
                       child: TextButton(
                         onPressed: () {},
                         child: const Icon(
@@ -81,11 +84,12 @@ class _EditScreenState extends State<EditScreen> {
                     ),
                   ),
                   Padding(
-                    padding: const EdgeInsets.all(8.0),
+                    padding:
+                        const EdgeInsets.symmetric(horizontal: 8, vertical: 5),
                     child: Container(
-                      color: Colors.blue,
-                      height: 70,
-                      width: 70,
+                      color: Colors.lightGreen[200],
+                      height: 50,
+                      width: 50,
                       child: TextButton(
                         onPressed: () {},
                         child: const Icon(
@@ -97,11 +101,12 @@ class _EditScreenState extends State<EditScreen> {
                     ),
                   ),
                   Padding(
-                    padding: const EdgeInsets.all(8.0),
+                    padding:
+                        const EdgeInsets.symmetric(horizontal: 8, vertical: 5),
                     child: Container(
-                      color: Colors.blue,
-                      height: 70,
-                      width: 70,
+                      color: Colors.lightGreen[200],
+                      height: 50,
+                      width: 50,
                       child: TextButton(
                         onPressed: () {},
                         child: const Icon(
@@ -113,11 +118,12 @@ class _EditScreenState extends State<EditScreen> {
                     ),
                   ),
                   Padding(
-                    padding: const EdgeInsets.all(8.0),
+                    padding:
+                        const EdgeInsets.symmetric(horizontal: 8, vertical: 5),
                     child: Container(
-                      color: Colors.blue,
-                      height: 70,
-                      width: 70,
+                      color: Colors.lightGreen[200],
+                      height: 50,
+                      width: 50,
                       child: TextButton(
                         onPressed: () {},
                         child: const Icon(
@@ -129,11 +135,12 @@ class _EditScreenState extends State<EditScreen> {
                     ),
                   ),
                   Padding(
-                    padding: const EdgeInsets.all(8.0),
+                    padding:
+                        const EdgeInsets.symmetric(horizontal: 8, vertical: 5),
                     child: Container(
-                      color: Colors.blue,
-                      height: 70,
-                      width: 70,
+                      color: Colors.lightGreen[200],
+                      height: 50,
+                      width: 50,
                       child: TextButton(
                         onPressed: () {},
                         child: const Icon(
@@ -150,7 +157,7 @@ class _EditScreenState extends State<EditScreen> {
 
             Expanded(
                 child: Container(
-              color: Colors.red,
+              color: Colors.grey[300],
               height: MediaQuery.of(context).size.height,
               width: MediaQuery.of(context).size.width,
               child: Column(
@@ -163,7 +170,7 @@ class _EditScreenState extends State<EditScreen> {
                           child: Container(
                             width: MediaQuery.of(context).size.width,
                             height: MediaQuery.of(context).size.height,
-                            color: Colors.red,
+                            color: Colors.black12,
                           ),
                         ),
                         // Expanded(
@@ -178,7 +185,7 @@ class _EditScreenState extends State<EditScreen> {
                   ),
                   Expanded(
                     child: Container(
-                      color: Colors.amber,
+                      color: Colors.grey,
                       width: MediaQuery.of(context).size.width,
                       height: MediaQuery.of(context).size.height,
                     ),
@@ -193,15 +200,16 @@ class _EditScreenState extends State<EditScreen> {
                   // ignore: sized_box_for_whitespace
                   Container(
                     height: MediaQuery.of(context).size.height,
-                    width: 80,
+                    width: 60,
                     child: SingleChildScrollView(
                       child: Column(children: [
                         Padding(
-                          padding: const EdgeInsets.all(8.0),
+                          padding: const EdgeInsets.symmetric(
+                              horizontal: 8, vertical: 5),
                           child: Container(
-                            color: Colors.blue,
-                            height: 70,
-                            width: 70,
+                            color: Colors.lightGreen[200],
+                            height: 50,
+                            width: 50,
                             child: TextButton(
                               onPressed: () {},
                               child: const Icon(
@@ -213,11 +221,12 @@ class _EditScreenState extends State<EditScreen> {
                           ),
                         ),
                         Padding(
-                          padding: const EdgeInsets.all(8.0),
+                          padding: const EdgeInsets.symmetric(
+                              horizontal: 8, vertical: 5),
                           child: Container(
-                            color: Colors.blue,
-                            height: 70,
-                            width: 70,
+                            color: Colors.lightGreen[200],
+                            height: 50,
+                            width: 50,
                             child: TextButton(
                               onPressed: () {},
                               child: const Icon(
@@ -229,11 +238,12 @@ class _EditScreenState extends State<EditScreen> {
                           ),
                         ),
                         Padding(
-                          padding: const EdgeInsets.all(8.0),
+                          padding: const EdgeInsets.symmetric(
+                              horizontal: 8, vertical: 5),
                           child: Container(
-                            color: Colors.blue,
-                            height: 70,
-                            width: 70,
+                            color: Colors.lightGreen[200],
+                            height: 50,
+                            width: 50,
                             child: TextButton(
                               onPressed: () {},
                               child: const Icon(
@@ -245,11 +255,12 @@ class _EditScreenState extends State<EditScreen> {
                           ),
                         ),
                         Padding(
-                          padding: const EdgeInsets.all(8.0),
+                          padding: const EdgeInsets.symmetric(
+                              horizontal: 8, vertical: 5),
                           child: Container(
-                            color: Colors.blue,
-                            height: 70,
-                            width: 70,
+                            color: Colors.lightGreen[200],
+                            height: 50,
+                            width: 50,
                             child: TextButton(
                               onPressed: () {},
                               child: const Icon(
@@ -261,11 +272,12 @@ class _EditScreenState extends State<EditScreen> {
                           ),
                         ),
                         Padding(
-                          padding: const EdgeInsets.all(8.0),
+                          padding: const EdgeInsets.symmetric(
+                              horizontal: 8, vertical: 5),
                           child: Container(
-                            color: Colors.blue,
-                            height: 70,
-                            width: 70,
+                            color: Colors.lightGreen[200],
+                            height: 50,
+                            width: 50,
                             child: TextButton(
                               onPressed: () {},
                               child: const Icon(
@@ -277,11 +289,12 @@ class _EditScreenState extends State<EditScreen> {
                           ),
                         ),
                         Padding(
-                          padding: const EdgeInsets.all(8.0),
+                          padding: const EdgeInsets.symmetric(
+                              horizontal: 8, vertical: 5),
                           child: Container(
-                            color: Colors.blue,
-                            height: 70,
-                            width: 70,
+                            color: Colors.lightGreen[200],
+                            height: 50,
+                            width: 50,
                             child: TextButton(
                               onPressed: () {},
                               child: const Icon(
@@ -293,11 +306,12 @@ class _EditScreenState extends State<EditScreen> {
                           ),
                         ),
                         Padding(
-                          padding: const EdgeInsets.all(8.0),
+                          padding: const EdgeInsets.symmetric(
+                              horizontal: 8, vertical: 5),
                           child: Container(
-                            color: Colors.blue,
-                            height: 70,
-                            width: 70,
+                            color: Colors.lightGreen[200],
+                            height: 50,
+                            width: 50,
                             child: TextButton(
                               onPressed: () {},
                               child: const Icon(
