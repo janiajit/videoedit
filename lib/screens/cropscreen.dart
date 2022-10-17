@@ -1,7 +1,6 @@
 //-----------------//
 //CROP VIDEO SCREEN//
 //-----------------//
-
 import 'package:flutter/material.dart';
 import 'package:helpers/helpers/widgets/animated_interactive_viewer.dart';
 import 'package:video_editor/domain/bloc/controller.dart';

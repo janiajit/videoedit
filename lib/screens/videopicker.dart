@@ -3,9 +3,6 @@ import 'package:flutter/material.dart';
 import 'package:image_picker/image_picker.dart';
 import 'package:video_editor_flutter/screens/editscreen.dart';
 
-//-------------------//
-//PICKUP VIDEO SCREEN//
-//-------------------//
 class VideoPickerPage extends StatefulWidget {
   const VideoPickerPage({Key key}) : super(key: key);
 
@@ -23,7 +20,7 @@ class _VideoPickerPageState extends State<VideoPickerPage> {
           context,
           MaterialPageRoute<void>(
               builder: (BuildContext context) =>
-                  EditScreen(file: File(file.path))));
+                  VideoEditor(file: File(file.path))));
     }
   }
 
@@ -44,9 +41,6 @@ class _VideoPickerPageState extends State<VideoPickerPage> {
                 color: Colors.black,
                 fontSize: 18.0,
               ),
-            ),
-            const SizedBox(
-              height: 20,
             ),
             ElevatedButton(
               onPressed: _pickVideo,
